@@ -1,0 +1,29 @@
+@import '@app/root/styles/index';
+
+.title {
+  color: $black;
+
+  text-transform: capitalize;
+
+  font-family: $font-family-main;
+}
+
+.text {
+  color: $black;
+
+  text-transform: capitalize;
+
+  font-family: $font-family-main;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}

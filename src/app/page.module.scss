@@ -1,0 +1,147 @@
+@import '../root/styles/index';
+
+.swiper {
+  margin-top: 32px;
+}
+
+.titleBlock{
+  display: flex;
+
+  align-items: flex-end;
+}
+
+.title {
+  font-size: $font-size-l;
+
+  width: 218px;
+}
+
+.boldText {
+  font-size: $font-size-l;
+
+  font-weight: bold;
+
+  position: absolute;
+
+  left: 153px;
+}
+
+.menuButton {
+  @include flex(center, center);
+
+  width: 69px;
+
+  height: 95px;
+
+  border: 3px solid $gray-light;
+
+  border-radius: 38px;
+}
+
+.headerWrapper {
+  @include flex(space-between, flex-end);
+
+  margin: 63px 38px 0 44px;
+}
+
+.sliderTitle {
+  font-size: 36px;
+
+  line-height: 37px;
+
+  width: 170px;
+
+  margin: 44px 0 16px 33px;
+}
+
+.sliderCategory {
+  background-color: $white;
+
+  border-radius: 30px;
+
+  color: $black-50;
+
+  padding: 10px 22px;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  margin-left: 29px;
+}
+
+//.sliderTextBlock {
+//  position: absolute;
+//}
+
+.priceBlock {
+  @include flex(space-between, center);
+
+  margin: 0 21px;
+
+  position: absolute;
+
+  bottom: 18px;
+
+  width: 294px;
+
+  height: 77px;
+
+  box-sizing: border-box;
+
+  backdrop-filter: blur(14px);
+
+  border-radius: 44.3333px;
+
+  background: linear-gradient(199.93deg, rgba(255, 255, 255, 0.6) 27.23%, rgba(255, 255, 255, 0.366) 96.87%);
+}
+
+.price {
+  font-size: 19px;
+
+  font-weight: 100;
+
+  line-height: 24px;
+
+  color: $black;
+
+  margin-left: 40px;
+}
+
+.bag {
+  @include flex(center, center);
+
+  background-color: $black-10;
+
+  width: 86px;
+
+  height: 65px;
+
+  border-radius: 44px;
+
+  margin-right: 6px;
+}
+
+.titleBlockCollection {
+  @include flex(space-between, center);
+
+  margin-left: 44px;
+
+  margin-right: 55px;
+}
+
+.titleBlockText {
+  display: flex;
+
+  gap: 4px;
+}
+
+.titleCollectionText {
+  font-size: 25px;
+}
+
+.textBoldCollection {
+  font-weight: bold;
+
+  font-size: 25px;
+}
